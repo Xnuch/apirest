@@ -12,6 +12,11 @@ app.get('/saludo', function (req, res){
 app.get('/despedido', function (req, res){
     res.send('Adios mundo cruel');
 });
+
+app.post('/despedido', function (req, res){
+    
+});
+
 app.listen(3000, function(){
     console.log('Aplicacion ejemplo, escuchando el puerto 3000!');
 });
